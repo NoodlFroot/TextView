@@ -10,15 +10,15 @@ let package = Package(
 	],
 	products: [
 		.library(
-			name: "TextView",
-			targets: ["TextView"]
+			name: "KMTextView",
+			targets: ["KMTextView"]
 		)
 	],
 	targets: [
-		.target(name: "TextView"),
+		.target(name: "KMTextView"),
 		.testTarget(
-			name: "TextViewTests",
-			dependencies: ["TextView"]
+			name: "KMTextViewTests",
+			dependencies: ["KMTextView"]
 		)
 	]
 )
