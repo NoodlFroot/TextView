@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "TextView",
+	name: "KMTextView",
 	platforms: [
 		.iOS(.v13),
 		.tvOS(.v13)
